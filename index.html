@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        *   {
+            margin: 0;
+            padding: 0;
+            }
+        body{
+            background-color: yellow;
+            text-align: center;
+            font-size: 25px;
+            }
+</style>
+</head>
+<body>
+    <h1>메인페이지 입니다.</h1>
+    <h2>도메인 최초 접속 페이지 입니다.
+    </h2>
+</body>
+<script type="text/javascript">
+
+    var filter = "win32|win64|macintel|mac";
+    if(navigator.platform) {
+        if(filter.indexOf(navigator.platform.toLowerCase())<0){
+            alert("모바일에서 접속!");
+            location.href="http://lys7221.dothome.co.kr/mobile.html";
+        }else {
+            alert("pc에서 접속!");
+        }
+    }
+</script>
+</html>

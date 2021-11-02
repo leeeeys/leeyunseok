@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.categori{
+    height: 100px;
+    display: block;
+    position: relative;
+}
+.categori .categoriitem{
+    text-align: center;
+}
+.categori .categoriitem .categoriitemimg{
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: top;
+    margin-left: 4px;
+}
+.categori .categoriitem .categoriitemimg .categoritheme .categoriicon img{
+    width: 41px;
+    height: 54px;
+}

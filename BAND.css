@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+        text-decoration: none;
+        color: black;
+    }
+header{
+    box-sizing: border-box;
+}
+.headerinner{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    min-width: 1000px;
+    height: 68px;
+}
+.headerinner .headertitle{
+    width: 95px;
+    height: 68px;
+}
+.headerinner .headertitle .bandlogo{
+    width: 78px;
+    height: 29px;
+    background-image: url(img/spr_intro.png);
+}
+.headerinner .floatsection{
+    top: 14px;
+    position: absolute;
+    right: 30px;
+    box-sizing: border-box;
+
+}
+.headerinner .floatsection .currentland{
+    display: inline-block;
+    position: relative;
+}
+.headerinner .floatsection .currentland .language{
+    position: relative;
+    padding-right: 13px;
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.headerinner .floatsection .signup{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 7px 0 0 27px;
+    vertical-align: top;
+}
+.headerinner .floatsection .login{
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    height: 35px;
+    margin: 0 0 0 26px;
+    padding: 0 23px;
+    border-radius: 2px;
+    background-color: #21c531;
+    line-height: 35px;
+    vertical-align: top;
+    color: white;
+}
+.main{
+    box-sizing: border-box;
+    display: block;
+}
+.main .sloganArea{
+    padding-top: 76px;
+    box-sizing: border-box;
+}
+.main .sloganArea .sloganInner{
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.main .sloganArea .sloganInner .imagesSection{
+    float: left;
+    width: 540px;
+    height: 695px;
+    margin-right: 50px;
+    background-image: url(img/bg_sloganImg.jpg);
+    background-size: 540px auto;
+}
+.main .sloganArea .sloganInner ._signUpRegion{
+    box-sizing: border-box;
+    display: block;
+}
+.main .sloganArea .sloganInner ._signUpRegion .loginsection{
+    overflow: hidden;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+.main .sloganArea .sloganInner ._signUpRegion .loginsection h2{
+    margin-top: 29px;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1.21;
+}
+.main .sloganArea .sloganInner ._signUpRegion .loginsection .title .explanation{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+.main .sloganArea .sloganInner ._signUpRegion .loginsection .signupForm{
+box-sizing: border-box;
+}
+.main .sloganArea .sloganInner ._signUpRegion .loginsection .signupForm .inputbox{
+    width: 340px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.main .sloganArea .sloganInner ._signUpRegion .loginsection .signupForm .inputbox .inputitem{
+    min-height: 46px;
+    padding: 5px 17px 7px;
+}
+.main .sloganArea .sloganInner ._signUpRegion .loginsection .buttonbox_signupBtn{
+    display: flex;
+    width: 340px;
+    margin-top: 20px;
+}
+.main .sloganArea .sloganInner ._signUpRegion .loginsection .buttonbox_signupBtn .button{
+    display: block;
+    border-radius: 2px;
+    background-color: #21c531;
+    height: 200px;
+    width: 340px;
+    text-align: center;
+    color: white;
+}
+.main .sloganArea .sloganInner ._signUpRegion .loginsection .buttonbox_signupBtn .loginText{
+    height: 200px;
+    width: 340px;
+}
+.introArea .introAreaDIV .introimg{
+    background-image: url(img/bg_intro.jpg);
+    width: 100%;
+    height: 540px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    flex-direction: column;
+}
+.introArea .introAreaDIV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introArea .introAreaDIV .introimg .title{
+    font-size: 42px;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+}
+.introArea .introAreaDIV .introimg p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: var(--larger-font);
+    color: white;
+}
+.seolist{
+    display: flex;
+    margin-top: 38px;
+    width: 1000px;
+    justify-content: space-between;
+}
+.seolist .seoimg{
+    width: 300px;
+    height: 160px;
+}
+.seolist .seoimg img{
+    width: 100%;
+}
+.title .seoListTitle{
+    font: 24px;
+    font-weight: 400;
+}
+.title p{
+    margin-top: 15px;
+    font-size: var(--larger-font);
+}
+.HowBandArea .howBandInner .head{
+    font-size: 24px;
+}
+
+flex-wrap wrap
+width1000px
+display
+flex
+display inline block

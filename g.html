@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+<style>
+    *{margin: 0;
+    padding: 0;}
+    .scrollbox1 {width: 200px;
+    height: 200px;
+    border : 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    overflow: scroll;}
+    .scrollbox2 {width: 200px;
+    height: 200px;
+    border: 2px solid black ;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;} 
+    .scrollbox3 {width: 200px;
+    height: 200px;
+    border: 2px solid black ;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 30px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+word-break: break-all;}
+
+</style>
+</head>
+<body>
+    <div class="scrollbox1">
+        <h4>scroll-x,y</h4>
+        <p><img src="img/개.png">
+        </p>
+    </div>
+    <div class="scrollbox2">
+        <h4>scroll-x</h4>
+        <p><img src="img/개.png">
+        </p>
+    </div>
+    <div class="scrollbox3">
+        <h4>scroll-y</h4>
+        <p><img src="img/개.png">
+        </p>
+    </div>
+    
+</body> 
+</html>
